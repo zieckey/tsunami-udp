@@ -820,7 +820,7 @@ int command_quit(command_t *command, ttp_session_t *session)
     printf("The SourceForge site can be found at: http://tsunami-udp.sf.net/\n\n");
 
     /* and quit */
-    exit(1);
+    exit(0);
     return 0;
 }
 
